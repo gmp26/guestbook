@@ -1,0 +1,18 @@
+2016-05-04 17:30:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+INSERT INTO users
+(id, first_name, last_name, email, pass)
+VALUES ( ? , ? , ? , ? , ? ) [42102-191]
+2016-05-04 17:30:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT * FROM users
+WHERE id = ? [42102-191]
+2016-05-04 17:31:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+INSERT INTO users
+(id, first_name, last_name, email, pass)
+VALUES ( ? , ? , ? , ? , ? ) [42102-191]
+2016-05-04 17:31:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+SELECT * FROM users
+WHERE id = ? [42102-191]
