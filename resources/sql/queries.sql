@@ -11,3 +11,4 @@ SELECT * FROM guestbook
 -- :name backup! :! :0
 -- :doc backup database
 BACKUP TO 'backup.zip'
+
